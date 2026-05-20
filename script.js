@@ -1,6 +1,6 @@
 //2,200 sketches!!!
 var num = 0;
-var speed = 0.3; 
+var speed = 0.2; 
 var msinterval = 10;
 var precision = 4;
 function D(x){return new ExpantaNum(x)}
