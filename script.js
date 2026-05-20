@@ -90,8 +90,33 @@ function valueNumber(x){
 	let number = ExpantaNum.expansion(10,j).floor().toString();
 	return "R^"+number
 }
-		
-	else return "Infinity"
+		else if(x < 26807152){
+	let i = (20 + ((x - 24607152) / 50000));
+	let j = ExpantaNum.pow(2,i).floor()
+	let number = ExpantaNum.expansion(10,j).floor().toString();
+	return "?"+number
+}
+
+else if(x < 27807152){
+	let i = (20 + ((x - 26807152) / 50000));
+	let j = ExpantaNum.pow(2,i).floor()
+	let number = ExpantaNum.expansion(10,j).floor().toString();
+	return "!"+number
+}
+		else if(x < 28807152){
+	let i = (20 + ((x - 27807152) / 50000));
+	let j = ExpantaNum.pow(2,i).floor()
+	let number = ExpantaNum.expansion(10,j).floor().toString();
+	return "/"+number
+}
+		else if(x < 29807152){
+	let i = (20 + ((x - 28807152) / 50000));
+	let j = ExpantaNum.pow(2,i).floor()
+	let number = ExpantaNum.expansion(10,j).floor().toString();
+	return "-"+number
+}
+			
+	else return "Infinite"
 	}
 
 
