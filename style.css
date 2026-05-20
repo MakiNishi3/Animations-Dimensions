@@ -7,3 +7,28 @@ body {
 	color: black;
 	background: white
 }
+button {
+	margin: 0;
+	padding: 0;
+	font-family: MonospaceTypewriter;
+	font-size: 1.5em;
+	color: black;
+	background: white
+}
+textarea {
+	margin: 0;
+	padding: 0;
+	font-family: MonospaceTypewriter;
+	font-size: 1.5em;
+	color: black;
+	background: white
+}
+
+input {
+	margin: 0;
+	padding: 0;
+	font-family: MonospaceTypewriter;
+	font-size: 1.5em;
+	color: black;
+	background: white
+}
